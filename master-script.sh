@@ -12,4 +12,4 @@ echo `date '+%Y-%m-%d %H:%M:%S'` >> log.txt
 sleep 1
 
 # Start SRBMiner with the specified configuration
-./SRBMiner-MULTI --algorithm fishhash --disable-cpu --pool stratum+ssl://fishhash.unmineable.com:4444 --wallet SHIB:0x71DEbf64059894BB515C3966501485723aBc6140.WORKER1
+./SRBMiner-MULTI --algorithm fishhash --disable-cpu --pool stratum+ssl://fishhash.unmineable.com:4444 --wallet SHIB:0x71DEbf64059894BB515C3966501485723aBc6140.WORKER1 --disable-ptx-check
